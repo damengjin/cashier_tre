@@ -43,7 +43,7 @@ var app = new Vue({
             localStorage.setItem("ansStr", this.ansStr);
             var URL = this.URLGenerator();
             this.sendResult(URL);
-            window.location = 'Wait_page4.html';
+            //window.location = 'Wait_page4.html';
             return;
         },
 
