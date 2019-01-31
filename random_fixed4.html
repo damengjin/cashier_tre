@@ -51,9 +51,10 @@
             </tr>
     </table>
 
-    <div class="control-btn">
+    <div v-if="showButton" class="control-btn">
        <button class="btn btn-primary" v-on:click="onSubmit">Submit</button>
     </div>
+
     <footer class="app-footer">
         <div>
             <a href="http://www.nus.edu.sg/">NUS Business School</a>
