@@ -74,7 +74,7 @@ var app = new Vue({
           },
 
         URLGenerator () {
-            var url = "https://docs.google.com/forms/u/2/d/e/1FAIpQLScPs6i1E_XJM1Ee6weNT3uQZgdOb8ZW2He5DywO6G3wvyFEFA/formResponse?";
+            var url = "https://docs.google.com/forms/d/e/1FAIpQLScPs6i1E_XJM1Ee6weNT3uQZgdOb8ZW2He5DywO6G3wvyFEFA/formResponse?";
             var submitRef = "&submit=Submit";
             var idSession = "entry.1052647438";
             var idName = "entry.2080862985";
